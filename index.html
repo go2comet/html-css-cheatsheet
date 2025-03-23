@@ -4,7 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My HTML & CSS Cheatsheet</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./src/styles.css">
+    <!-- Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&family=Sue+Ellen+Francisco&display=swap" rel="stylesheet">
 </head>
     <body>
         <!-- This is the header section -->
@@ -19,13 +23,58 @@
         <!-- This is the HTML section -->
         <section class="html"> 
             <img src="./src/images/html-icon.svg" alt="html icon">
-            <h2>HTML</h2>
+            <h2 class="sub-heading">HTML</h2>
                 <table>
                     <thead>
-
+                        <td>Section</td>
+                        <td>Review</td>
+                        <td>Resource Link</td>
                     </thead>
                     <tbody>
-
+                        <tr>
+                            <td>Elements</td>
+                            <td><strong>HTML</strong> stands for <strong>H</strong>yper<strong>T</strong>ext <strong>M</strong>arkup <strong>L</strong>anguage and is used to create the structure and content of a webpage.</td>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">mdn "HTML: HyperText Markup Language"</a></td>
+                        </tr>
+                        <tr>
+                            <td>Elements</td>
+                            <td>Any visible content should be placed within the opening and closing &lt;body&gt; tags.</td>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body" target="_blank">mdn "&lt;body&gt;: The Document Body element"</a></td>
+                        </tr>
+                        <tr>
+                            <td>Elements</td>
+                            <td>&lt;p&gt;, &lt;span&gt; and &lt;div&gt; tags specify text or blocks.</td>
+                            <td><a href="https://www.geeksforgeeks.org/difference-between-div-and-span-tag-in-html/" target="_blank">geeksforgeeks "Difference between &lt;div&gt; and &lt;span&gt; Tag in HTML</a></td>
+                        </tr>
+                        <tr>
+                            <td>Elements</td>
+                            <td>Images (&lt;img&gt;) and videos (&lt;video&gt;) can be added by linking to an existing source.</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Structure</td>
+                            <td>Information about the web page, like the title, belongs within the &lt;head&gt; of the page.</td>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head" target="_blank">mdn "&lt;head&gt;: The Document Metadata (Header) element</a></td>
+                        </tr>
+                        <tr>
+                            <td>Structure</td>
+                            <td>Anchor tags (&lt;a&gt;) are used to link to internal pages, external pages or content on the same page.</td>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a" target="_blank">mdn "&lt;a&gt;: The Anchor element</a></td>
+                        </tr>
+                        <tr>
+                            <td>Structure</td>
+                            <td>Comments are written in HTML using the following syntax: &lt;!-- comment --&gt;.</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Semantic</td>
+                            <td>Semantic HTML is a modern standard and makes a website accessible for people who use screen readers to translate the webpage and improves your website’s SEO.</td>
+                            <td><a href="https://www.w3schools.com/html/html5_semantic_elements.asp" target="_blank">W3 Schools: "HTML Semantic Elements"</a></td>
+                        </tr>
+                        <tr>
+                            <td>Semantic</td>
+                            <td>&lt;header&gt;, &lt;nav&gt; , &lt;main&gt; and &lt;footer&gt; create the basic structure of the webpage.</td>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Glossary/Semantics#semantics_in_html" target="_blank">mdn "Semantics in HTML"</a></td>
                     </tbody>
                 </table>
         </section>
@@ -33,27 +82,47 @@
         <!-- This is the CSS section -->
         <section class="css">
             <img src="./src/images/css-icon.svg" alt="css icon">
-            <h2>CSS</h2>
+            <h2 class="sub-heading">CSS</h2>
                 <table>
                     <thead>
-
-                    </thead>
+                        <td>Section</td>
+                        <td>Review</td>
+                        <td>Resource Link</td>
+                    </thead>                    
                     <tbody>
-
+                        <tr>
+                            <td>Setup and Syntax</td>
+                            <td>An internal stylesheet is written using the &lt;style&gt; element inside the &lt;head&gt; element of an HTML file.</td>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/API/CSSStyleSheet" target="_blank">mdn "CSSStyleSheet"</a></td>
+                        </tr>
+                        <tr>
+                            <td>Setup and Syntax</td>
+                            <td>External stylesheets are linked to HTML using the &lt;link&gt; element.</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Selectors</td>
+                            <td>IDs are more specific than classes, and classes are more specific than type.</td>
+                            <td><a href="https://www.w3schools.com/css/css_specificity.asp" target="_blank">W3 Schools "CSS Specificity"</a></td>
+                        </tr>
+                        <tr>
+                            <td>Visual Rules</td>
+                            <td>Text can have two different color attributes: <strong>color</strong> and <strong>background-color</strong>. <strong>color</strong> defines the color of the text, while <strong>background-color</strong> defines the color behind the text.</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Visual Rules</td>
+                            <td>The <strong>!important</strong> flag will override any style, however it should almost never be used, as it is extremely difficult to override.</td>
+                            <td><a href="https://www.w3schools.com/css/css_important.asp" target="_blank">W3 Schools "CSS The !important Rule"</a></td>
                     </tbody>
                 </table>
         </section>
         
         <!-- This is the footer section -->
         <footer>
-
+            <p>go2comet &copy; 2025 All Rights Reserved</p>
+            <a href="https://github.com/go2comet" target="_blank"><img src="./src/images/git-icon.svg" alt="git icon"></a>
+            <a href="https://x.com/go2comet" target="_blank"><img src="./src/images/x-icon.svg" alt="x icon"></a>
         </footer>
-
-
-
-
-
-
-
     </body>
 </html>
